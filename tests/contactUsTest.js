@@ -47,8 +47,8 @@ describe('Test Contact Us form WebdriverUni_Suite2', function() {
   	ContactUsPage.setLastName('Woods');
   	ContactUsPage.setEmailAddress('mike_woods@mail.com');
   	ContactUsPage.clickSubmitButton();
-  	//ContactUsPage.confirmUnsuccessfulSubmission();
-  	ContactUsPage.submitAllInformationViaContactUsForm('Mike','Woods','mike_woods@mail.com',null);
+  	ContactUsPage.confirmUnsuccessfulSubmission();
+  	//ContactUsPage.submitAllInformationViaContactUsForm('Mike','Woods','mike_woods@mail.com',null);
     });
 
   it('Should not be able to submit a successful submission via contact us form as all fields are required_2', function(done) {
