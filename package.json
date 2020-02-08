@@ -1,0 +1,31 @@
+{
+  "name": "webdriverioframework",
+  "version": "1.0.0",
+  "description": "WebDriverIO Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhanuvaddi/WebdriverIO.git"
+  },
+  "author": "Bhanu Vaddi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhanuvaddi/WebdriverIO/issues"
+  },
+  "homepage": "https://github.com/bhanuvaddi/WebdriverIO#readme",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^5.0.0",
+    "chai": "^4.2.0",
+    "del": "^3.0.0",
+    "mocha": "^5.2.0",
+    "selenium-standalone": "^6.15.3",
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-json-reporter": "^0.4.0",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "webdriverio": "^4.13.2"
+  }
+}
